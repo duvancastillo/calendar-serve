@@ -34,6 +34,7 @@ const crearUsuario = async (req, res) => {
     });
   }
 };
+//funcion para inciar session
 
 const login = async (req, res) => {
   const { email, password } = req.body;
